@@ -1,17 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import UploadFfile from './components/Uploadfile.jsx'
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import UploadFile from './components/UploadFile.jsx'; 
 
 function App() {
-
   return (
-    <>
-      <UploadFfile/>
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/upload" element={<UploadFile />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
