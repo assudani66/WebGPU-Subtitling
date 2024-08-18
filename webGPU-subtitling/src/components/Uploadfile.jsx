@@ -54,7 +54,7 @@ function UploadFfile() {
           <button onClick={handleRemove} className="remove-button">
             Remove File
           </button>
-          <button>Submit</button>
+          <button className="submit-button">Submit</button>
         </div>
       )}
       <div></div>

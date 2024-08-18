@@ -64,6 +64,22 @@
   .remove-button:hover {
     background-color: #c82333;
   }
+
+  .submit-button {
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: #007bff; /* Change to blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Darker shade of blue for hover */
+  }
+
   
   /* Responsive design for smaller screens */
   @media (max-width: 768px) {
